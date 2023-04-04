@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-top: 15px;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #000, #28252a);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 80px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    font-family: 'ubuntu', sans-serif;
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+
+/* banner section */
+
+#banner {
+    background-image: linear-gradient(to right, #000, #28252a);
+    color: #fff;
+    padding-top: 5%;
+    font-family: 'montserrat', sans-serif;
+}
+
+.promo-title {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2;
+    margin-top: 50px;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.play-btn {
+    width: 50px;
+    margin: 20px;
+}
+
+.home-img {
+    width: 500px;
+    margin: -16px 31px;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+
+/* feature section */
+
+#features {
+    position: relative;
+    text-align: center;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #3c3b3d;
+    margin-bottom: 1rem;
+    margin: 15spx 15px;
+}
+
+.icon:hover {
+    color: #000;
+}
+
+
+/* About us page */
+
+#about-us {
+    background-image: linear-gradient(to right, #000, #28252a);
+    text-align: center;
+    z-index: 10;
+    padding: 150px;
+}
+
+.about-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.about-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #fdfdfd;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Event conducted */
+
+#event-conducted {
+    position: relative;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), #777479);
+}
+
+.event-title {
+    font-size: 1.5rem;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.event-box {
+    padding: 4.5%;
+}
+
+.event-img {
+    width: 30%;
+    border: solid;
+    border-color: black;
+    border-radius: 90px;
+    margin: 12px 10px;
+}
+
+
+/* footer line */
+
+#social-media {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translate(-10px);
+}
